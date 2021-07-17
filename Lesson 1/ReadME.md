@@ -1,3 +1,12 @@
-### Beginner Crash Course for NODEJS
+## NodeJS Beginners Crash Course
 
-- By SyntacticDev
+**_Learn Backend_**
+
+---
+
+_Clik below to download NodeJS_
+[Download NodeJS](https://www.nodejs.org/download)
+
+> ##### :diamond_shape_with_a_dot_inside: Steps
+
+_Run_ **npm Init**
