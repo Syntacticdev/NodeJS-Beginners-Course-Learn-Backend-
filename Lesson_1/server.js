@@ -1,10 +1,8 @@
 const http = require("http");
-
+const { fileSystem } = require("./fileSystem");
 const server = http.createServer((req, res) => {
   console.log("Request made to the server");
-  res.setHeader("Content-Type", "text/html");
-  res.write("<h1>Hello Sync!</h1>");
-  res.end();
+  fileSystem(req.url);
 });
 
 const PORT = process.env.PORT || 5000;

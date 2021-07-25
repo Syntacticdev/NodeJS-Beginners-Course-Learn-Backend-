@@ -3,10 +3,14 @@
   "version": "1.0.0",
   "main": "server.js",
   "scripts": {
-    "start": "node server"
+    "start": "node server",
+    "dev": "nodemon server"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "description": ""
+  "description": "",
+  "dependencies": {
+    "nodemon": "^2.0.9"
+  }
 }

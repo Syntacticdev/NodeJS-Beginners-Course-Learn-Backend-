@@ -1,0 +1,17 @@
+GET http://localhost:5000/createfile
+
+###
+
+GET http://localhost:5000/deletefile
+
+###
+
+GET http://localhost:5000/createfolder
+
+###
+
+GET http://localhost:5000/deletefolder
+
+###
+
+GET http://localhost:5000/ifexis
